@@ -1,0 +1,13 @@
+name: dartevel_framework
+version: 0.0.0
+description: >-
+  a fullstack web framework like laravel for dart language
+
+repository: https://github.com/dartevel/dartevel-framework
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+
+dev_dependencies:
+  test: ^1.17.11
+  
