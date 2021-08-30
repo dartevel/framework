@@ -1,0 +1,14 @@
+https://github.com/dart-lang/path
+https://pub.dev/packages/crypto
+https://pub.dev/packages/http
+https://pub.dev/packages/http_parser/install
+https://pub.dev/packages/async
+https://pub.dev/packages/typed_data
+https://pub.dev/packages/args
+https://pub.dev/packages/test
+https://pub.dev/packages/grpc
+https://pub.dev/packages/http2
+https://pub.dev/packages/os_detect
+https://pub.dev/packages/dart_mssql
+
+https://pub.dev/packages/sqflite

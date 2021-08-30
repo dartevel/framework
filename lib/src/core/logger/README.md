@@ -2,7 +2,7 @@
 
 ## Drivers
 
-File, Database
+File, Databases, Sockets, Null, send to apis
 
 
 ### Levels
@@ -10,4 +10,7 @@ File, Database
 
 low 
 info
-
+debug
+warning
+error
+fetal

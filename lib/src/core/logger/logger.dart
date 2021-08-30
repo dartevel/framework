@@ -1,1 +1,5 @@
-library dartevel.framework.cache;
+library dartevel.framework.logger;
+
+abstract class Logger {
+  //
+}

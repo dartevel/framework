@@ -1,1 +1,1 @@
-library dartevel.framework.logger;
+library dartevel.framework.config;
