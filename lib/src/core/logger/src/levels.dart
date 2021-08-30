@@ -2,12 +2,15 @@
 
 enum Levels {
   EMERGENCY,
+  ALERT,
   CRITICAL,
   ERROR,
-  HIGHT,
-  MEDIUM,
-  LOW,
+  WARNING,
+  NOTICE,
   INFO,
   DEBUG,
-  NOTICE,
+}
+
+class LogLevel {
+  //
 }
