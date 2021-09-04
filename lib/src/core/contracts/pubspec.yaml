@@ -1,0 +1,7 @@
+name: dartevel_contracts
+version: 0.0.0
+description: contracts
+repository: https://github.com/dartevel/framework
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
