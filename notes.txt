@@ -52,3 +52,5 @@ https://pub.dev/packages/liquid_engine
 https://pub.dev/packages/environment_config
 https://pub.dev/packages/dotenv
 https://pub.dev/packages/envify
+
+https://pub.dev/packages/completion
