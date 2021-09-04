@@ -1,0 +1,6 @@
+abstract class ServerAbstract {
+  ServerAbstract();
+
+  
+}
+
