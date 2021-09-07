@@ -3,6 +3,8 @@ version: 0.0.0
 description: >-
   a fullstack web framework like laravel for dart language
 
+homepage: https://dartevel.com
+documentation: https://dartevel.com/docs
 repository: https://github.com/dartevel/framework
 authors:
   - Miladimos <miladimos@outlook.com>
