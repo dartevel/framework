@@ -9,7 +9,10 @@ environment:
 dependencies:
   args: ^2.2.0  
   path: ^1.8.0
+  http: ^0.13.3
+  io: ^1.0.3  
 
+  
 dev_dependencies:
   test: ">=1.15.0 <2.0.0"
 
