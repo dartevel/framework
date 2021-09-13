@@ -1,5 +1,5 @@
 name: dartevel_cli
-version: 0.0.0
+version: 0.0.1
 description: cli
 repository: https://github.com/dartevel/framework
 
@@ -11,8 +11,9 @@ dependencies:
   path: ^1.8.0
   http: ^0.13.3
   io: ^1.0.3  
+  cli_util: ^0.3.3
+  yaml: ^3.1.0
 
-  
 dev_dependencies:
   test: ">=1.15.0 <2.0.0"
 
