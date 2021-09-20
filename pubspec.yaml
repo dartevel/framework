@@ -8,6 +8,7 @@ documentation: https://dartevel.com/docs
 repository: https://github.com/dartevel/framework
 authors:
   - Miladimos <miladimos@outlook.com>
+  
 environment:
   sdk: '>=2.12.0 <3.0.0'
 

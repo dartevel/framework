@@ -15,6 +15,6 @@ class VersionCommand extends Command {
 
 
   void run() {
-    stdout.write(version);
+    stdout.write('Dartevel CLI Version: ' + version);
   }
 }

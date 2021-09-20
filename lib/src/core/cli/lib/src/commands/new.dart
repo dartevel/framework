@@ -1,6 +1,7 @@
-import 'package:args/command_runner.dart';
 
-class NewCommand extends Command {
+import 'package:dartevel_cli/src/commands/command.dart';
+
+class NewCommand extends DartevelCommand {
   final _description = 'create new project';
   final _name = 'new';
 
