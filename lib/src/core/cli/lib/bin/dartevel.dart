@@ -11,6 +11,9 @@ import 'banners.dart';
 Future<void> main(List<String> args) async {
   String description = '''
   $banner
+  
+  https://dartevel.com
+
   dartevel framework cli $version
   ''';
 
@@ -19,8 +22,13 @@ Future<void> main(List<String> args) async {
     ..addCommand(NewCommand())
     ..addCommand(VersionCommand());
 
-  return await runner
-      .run(args)
-      .onError((error, stackTrace) => stderr.write(error))
-      .whenComplete(() => null);
+  runner.argParser.addFlag('verbose',
+      help: 'Print verbose output.', negatable: false, abbr: 'v');
+
+  return await runner.run(args).onError((error, stackTrace) {
+    stderr.writeln('Error -- something went wrong: $error');
+    if (args.contains('--verbose') || args.contains('-v')) {
+      stderr.writeln(stackTrace);
+    }
+  }).whenComplete(() => null);
 }

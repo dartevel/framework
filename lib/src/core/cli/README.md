@@ -4,6 +4,7 @@
 ## Commands:
 
 create : create new project
-
+version: current cli version
+help : show help
 
 

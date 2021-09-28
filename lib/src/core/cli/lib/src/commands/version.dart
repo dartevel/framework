@@ -8,11 +8,10 @@ class VersionCommand extends Command {
   final _name = 'version';
 
   @override
-  String get description => _description;
-
-  @override
   String get name => _name;
 
+  @override
+  String get description => _description;
 
   void run() {
     stdout.write('Dartevel CLI Version: ' + version);
