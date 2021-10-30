@@ -1,0 +1,16 @@
+name: database_example
+description: A sample for dartevel database package.
+version: 1.0.0
+# homepage: https://www.example.com
+publish_to: none
+
+environment:
+  sdk: '>=2.14.2 <3.0.0'
+
+
+dependencies:
+  dartevel_database:
+    path: ../../database/
+
+dev_dependencies:
+  test: ^1.16.0
