@@ -1,5 +1,5 @@
 name: dartevel_database
-version: 0.0.0
+version: 0.0.1
 description: multi driver database library for dartevel framework
 repository: https://github.com/dartevel/framework
 
@@ -7,6 +7,12 @@ environment:
   sdk: ">=2.13.0 <3.0.0"
 
 dependencies:
+  dartevel_contracts:
+    git:
+      url: https://github.com/dartevel/contracts.git
+      ref: master
+  mysql1: ^0.19.2
+
   
 dev_dependencies:
   test: ">=1.15.0 <2.0.0"
