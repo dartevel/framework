@@ -1,3 +1,3 @@
-Future main() async {
+void main() {
   print("Example");
 }

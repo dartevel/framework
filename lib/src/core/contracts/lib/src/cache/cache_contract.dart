@@ -1,6 +1,1 @@
-abstract class CacheContract {
-  void set();
-  void get();
-  void all();
-  void forgot();
-}
+export 'cache_driver_contract.dart';

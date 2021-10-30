@@ -4,15 +4,22 @@ description: multi driver database library for dartevel framework
 repository: https://github.com/dartevel/framework
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
   dartevel_contracts:
     git:
       url: https://github.com/dartevel/contracts.git
-      ref: master
+      ref: master      
   mysql1: ^0.19.2
+  path: ^1.8.0
+  convert: ^3.0.1
+  dartx: any
+  faker: ^2.0.0
+  yaml: ^3.1.0
+  crypto: ^3.0.1
+  uuid: ^3.0.5
+  json_serializable: ^6.0.1
 
-  
 dev_dependencies:
   test: ">=1.15.0 <2.0.0"
