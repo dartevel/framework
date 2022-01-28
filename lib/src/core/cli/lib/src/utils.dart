@@ -1,12 +1,19 @@
 import 'dart:io';
-import 'package:yaml/yaml.dart';
 import 'dart:math';
+import 'package:yaml/yaml.dart';
+import 'package:path/path.dart' as path;
 
-final pubFile = File('pubspec.yaml');
-final yamlString = pubFile.readAsStringSync();
-final dynamic config = loadYaml(yamlString);
 
-final version = config['version'];
+// void configureUtils() {
+  
+String pubspecPath = path.join(path.dirname(path.current), 'pubspec.yaml');
+
+
+File(pubspecPath).readAsString().then((String content) {
+  final dynamic config = loadYaml(content);
+  final version = config['version'];
+});
+
 
 const String _valid =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -21,3 +28,4 @@ String randomAlphaNumeric(int length) {
 
   return b.toString();
 }
+// }

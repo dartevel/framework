@@ -105,8 +105,11 @@ https://pub.dev/packages/jinja
 https://pub.dev/packages/dart_orm
 https://github.com/google/ansicolor-dart
 https://pub.dev/packages/liquid_engine
+
 https://pub.dev/packages/environment_config
 https://pub.dev/packages/dotenv
+https://pub.dev/packages/envify
+
 https://pub.dev/packages/process_run
 https://pub.dev/packages/email_validator
 https://pub.dev/packages/completion
@@ -152,7 +155,6 @@ https://pub.dev/packages/lumberdash
 https://pub.dev/packages/archive
 https://pub.dev/packages/platform_info
 https://pub.dev/packages/fresh
-https://pub.dev/packages/envify
 https://pub.dev/packages/queue
 https://pub.dev/packages/string_scanner
 https://pub.dev/packages/file

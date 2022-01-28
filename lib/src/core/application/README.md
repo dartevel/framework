@@ -1,5 +1,5 @@
 # Application
 
 ## ss
-ioC Container - bus 
+ioC Container - bus - events -
 

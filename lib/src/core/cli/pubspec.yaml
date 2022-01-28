@@ -2,6 +2,7 @@ name: dartevel_cli
 version: 0.0.1
 description: cli
 repository: https://github.com/dartevel/framework
+documentation: https://github.com/dartevel/cli
 
 environment:
   sdk: ">=2.13.0 <3.0.0"

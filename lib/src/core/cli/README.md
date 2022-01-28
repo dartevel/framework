@@ -3,8 +3,11 @@
 
 ## Commands:
 
-create : create new project
-version: current cli version
-help : show help
+create  : create new project
+serve   : serve project
+db      : work with database
+version : current cli version
+help    : show help
+test    : run tests
 
 

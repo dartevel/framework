@@ -16,4 +16,4 @@ start project: 2021-08-23 - ۱۴۰۰/۰۶/۰۱
 
         dartevel create my_project
 
-Open the project directory in [IntelliJ IDE](https://www.jetbrains.com/idea/download/), [Atom](https://atom.io) or [Visual Studio Code](https://code.visualstudio.com). All three IDEs have a Dart plugin. For IntelliJ IDEA users, there are [file and code templates](https://dartevel.io/docs/intellij/) for Aqueduct.
+Open the project directory in [IntelliJ IDE](https://www.jetbrains.com/idea/download/), [Atom](https://atom.io) or [Visual Studio Code](https://code.visualstudio.com). All three IDEs have a Dart plugin. For IntelliJ IDEA users, there are [file and code templates](https://dartevel.io/docs/intellij/) for Dartevel.
