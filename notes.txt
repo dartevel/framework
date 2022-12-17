@@ -349,5 +349,41 @@ https://pub.dev/dart/packages?page=80
 
 
 
+https://github.com/serverpod/serverpod
+https://www.theconduit.dev/
+https://aqueduct.io/
+https://github.com/salkuadrat/lucifer
+https://github.com/rikulo/stream
+https://github.com/rknell/alfred
+https://github.com/lvivski/start
+https://github.com/Scorpiion/Vane
+https://github.com/jonataslaw/get_server
+https://angel-dart.dev/
+https://github.com/dart-lang/shelf
+https://github.com/Jaguar-dart/jaguar
+https://github.com/VeryGoodOpenSource/dart_frog
+https://github.com/karan/validator.dart
+https://github.com/erlage/rad
+https://github.com/simolus3/zap
+https://github.com/schultek/jaspr
+https://github.com/kevmoo/dhttpd
+https://github.com/sourcecaster/serveme
+https://github.com/Flutterando/dartion
+https://github.com/lau1944/shark
+https://github.com/alalawy/DChisel
+https://github.com/Fennec-Framework/fennec
+https://github.com/dukefirehawk/angel
+
+https://github.com/maxzod?tab=repositories
+
+
+
+
+
+
+
+
+
+
 
 
