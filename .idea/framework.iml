@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/logger/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/logger/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/logger/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/config/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/config/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/config/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/cache/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/cache/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/cache/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/validator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/validator/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/validator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/cli/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/cli/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/cli/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/contracts/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/contracts/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/contracts/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/http/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/http/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/http/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/mailer/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/mailer/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/mailer/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/examples/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/examples/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/examples/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/application/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/application/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/application/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>

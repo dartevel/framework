@@ -15,7 +15,7 @@ Future<void> main(List<String> args) async {
   
   https://dartevel.com
 
-   dartevel framework cli $version
+   dartevel framework cli 
   ''';
 
   var runner = CommandRunner("dartevel", description)
