@@ -1,4 +1,4 @@
-name: dartevel_mail
+name: dartevel_mailer
 version: 0.0.0
 description: multi driver mail library for dartevel framework
 repository: https://github.com/dartevel/framework

@@ -1,3 +1,5 @@
+part of dartevel.framework.http;
+
 import 'dart:io';
 
 class Request {

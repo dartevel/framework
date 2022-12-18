@@ -1,7 +1,5 @@
-import 'package:dartevel_cli/src/commands/command.dart';
-
-import 'package:dartevel_cli/src/commands/command.dart';
 import 'package:http/http.dart';
+import 'package:dartevel_cli/src/commands/command.dart';
 
 typedef void HttpHandler(Request req, Response res);
 

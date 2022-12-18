@@ -1,0 +1,2 @@
+library dartevel.framework.mailer;
+

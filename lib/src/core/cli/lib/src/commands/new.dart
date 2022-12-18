@@ -19,7 +19,7 @@ class NewCommand extends DartevelCommand {
     argParser
       ..addOption('name', abbr: 'n', help: 'project name')
       ..addFlag('web', abbr: 'w', help: 'create full mvc web project')
-      ..addFlag('api', abbr: 'a', help: 'create resetfull api project');
+      ..addFlag('api', abbr: 'a', help: 'create reset full api project');
   }
 
   @override
@@ -31,6 +31,11 @@ class NewCommand extends DartevelCommand {
     _project_name = argResults?['name'];
     _is_api = argResults?['api'];
     _is_web = argResults?['web'];
-
   }
+
+
+  createNewProject() {
+    return true;
+  }
+
 }

@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:args/command_runner.dart';
+import 'package:dartevel_cli/src/commands/command.dart';
 import 'package:dartevel_cli/src/utils.dart';
 
-class VersionCommand extends Command {
+class VersionCommand extends DartevelCommand {
   final _description = 'current framework version';
   final _name = 'version';
 
