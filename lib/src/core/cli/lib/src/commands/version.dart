@@ -13,6 +13,8 @@ class VersionCommand extends DartevelCommand {
   @override
   String get description => _description;
 
+  VersionCommand();
+  
   void run() {
     stdout.write('Dartevel CLI Version: ' + version);
   }
