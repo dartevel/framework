@@ -9,4 +9,8 @@ class DocsCommand extends DartevelCommand {
   String get description => "Open dartevel docs in your browser";
 
   DocsCommand();
+
+  void run() {
+    print("docs run");
+  }
 }

@@ -9,4 +9,8 @@ class TestCommand extends DartevelCommand {
   String get description => "Run tests";
 
   TestCommand();
+
+  void run() {
+    print("test run");
+  }
 }

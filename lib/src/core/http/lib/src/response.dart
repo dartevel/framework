@@ -1,10 +1,6 @@
 import 'dart:io';
+import 'package:shelf/shelf.dart' as shelf;
 
-
-class Response {
-  final HttpResponse _request;
-
-  Response(this._request);
-  
+class Response extends shelf.Response {
+  Response(int statusCode) : super(statusCode);
 }
-

@@ -33,12 +33,15 @@
       <excludeFolder url="file://$MODULE_DIR$/lib/src/core/mailer/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/lib/src/core/mailer/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/lib/src/core/mailer/build" />
-      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/examples/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/examples/build" />
-      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/examples/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/lib/src/core/application/build" />
       <excludeFolder url="file://$MODULE_DIR$/lib/src/core/application/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/lib/src/core/application/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/views/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/views/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/views/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/src/core/database/example/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

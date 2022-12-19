@@ -9,4 +9,8 @@ class DownCommand extends DartevelCommand {
   String get description => "Change mood of project to maintenance";
 
   DownCommand();
+
+  void run() {
+    print("down run");
+  }
 }

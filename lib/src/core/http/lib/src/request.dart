@@ -1,11 +1,8 @@
 import 'dart:io';
 
-class Request {
-  final HttpRequest _request;
+import 'package:shelf/shelf.dart' as shelf;
 
-  Request(this._request);
+class Request extends shelf.Request {
+  Request(String method, Uri requestedUri) : super(method, requestedUri);
 
-  bool get isForwarded => _request.headers['x-forwarded-host'] != null;
-  
-  String get method => _request.method;
 }

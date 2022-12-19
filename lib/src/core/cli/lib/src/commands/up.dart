@@ -1,7 +1,6 @@
 import 'package:dartevel_cli/src/commands/command.dart';
 
 class UpCommand extends DartevelCommand {
-
   @override
   String get name => "up";
 
@@ -10,5 +9,7 @@ class UpCommand extends DartevelCommand {
 
   UpCommand();
 
-
+  void run() {
+    print("up run");
+  }
 }

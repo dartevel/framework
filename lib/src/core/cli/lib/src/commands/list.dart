@@ -10,4 +10,7 @@ class ListCommand extends DartevelCommand {
 
   ListCommand();
 
+  void run() {
+    print("list run");
+  }
 }
