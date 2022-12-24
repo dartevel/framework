@@ -16,6 +16,8 @@ class VersionCommand extends DartevelCommand {
   VersionCommand();
   
   void run() {
+    // color("Bold Italic Underline", front: Styles.RED, isBold: true, isItalic: true, isUnderline: true);
+
     stdout.write('Dartevel CLI Version: ');
   }
 }

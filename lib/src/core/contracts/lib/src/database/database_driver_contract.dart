@@ -1,6 +1,6 @@
 abstract class DatabaseDriverContract {
 
-  late final instanse;
+  late final instance;
 
   Future connect();
 
