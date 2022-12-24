@@ -3,11 +3,12 @@ import 'package:dartevel_cli/src/commands/makes/make_command.dart';
 class MakeControllerCommand extends MakeCommand {
 
   @override
-  // TODO: implement description
-  String get description => throw UnimplementedError();
+  String get description => "Create a new controller";
 
   @override
-  // TODO: implement name
-  String get name => throw UnimplementedError();
+  String get name => "make:controller";
 
+  void run() {
+    print("make:controller run");
+  }
 }

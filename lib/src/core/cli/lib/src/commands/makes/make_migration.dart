@@ -2,11 +2,12 @@ import 'package:dartevel_cli/src/commands/makes/make_command.dart';
 
 class MakeMigrationCommand extends MakeCommand {
   @override
-  // TODO: implement description
-  String get description => throw UnimplementedError();
+  String get description => "Create a new migration";
 
   @override
-  // TODO: implement name
-  String get name => throw UnimplementedError();
+  String get name => "make:migration";
 
+  void run() {
+    print("make:migration run");
+  }
 }

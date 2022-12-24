@@ -2,11 +2,12 @@ import 'package:dartevel_cli/src/commands/makes/make_command.dart';
 
 class MakeMiddlewareCommand extends MakeCommand {
   @override
-  // TODO: implement description
-  String get description => throw UnimplementedError();
+  String get description => "Create a new middleware";
 
   @override
-  // TODO: implement name
-  String get name => throw UnimplementedError();
+  String get name => "make:middleware";
 
+  void run() {
+    print("make:middleware run");
+  }
 }
