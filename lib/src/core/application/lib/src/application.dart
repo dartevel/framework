@@ -1,7 +1,7 @@
 class Application {
   Application() {}
   
-  // boostraping framework
+  // bootstrapping framework
   Future<void> bootstrap() async{
     //
   }
@@ -9,5 +9,5 @@ class Application {
   void bind() {}
   void make() {}
   void resolve() {}
-  void singlton() {}
+  void singleton() {}
 }

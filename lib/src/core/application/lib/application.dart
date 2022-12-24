@@ -1,8 +1,9 @@
 library dartevel.framework.application;
 
-import 'package:dartevel_framework/src/core/application/lib/src/application.dart';
+import 'package:dartevel_application/src/application.dart';
+
 
 export 'src/service_provider.dart';
-export 'src/enviroment.dart';
+export 'src/environment.dart';
 
 dynamic app = Application();

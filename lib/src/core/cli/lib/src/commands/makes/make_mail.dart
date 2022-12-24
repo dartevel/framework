@@ -7,7 +7,19 @@ class MakeMailCommand extends MakeCommand {
   @override
   String get name => "make:mail";
 
-  void run() {
+  late String mail_name;
+
+  MakeMailCommand() {
+    argParser..addOption('name', abbr: 'n', help: 'mail name');
+  }
+
+  @override
+  void run() async {
+    if (argResults == null) {
+      return;
+    }
     print("make:mail run");
+
+    mail_name = argResults?['name'];
   }
 }

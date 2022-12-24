@@ -1,8 +1,8 @@
-class Enviroment {
+class Environment {
 
-  String currentEnviroment = '';
+  String _environment = '';
 
-  Enviroment() {}
+  Environment() {}
 
   /// Get an environment variable from a `.env` file in the root of
   /// you application. Optionally provide a fallback default value.
@@ -11,12 +11,12 @@ class Enviroment {
   }
 
 
-  Future<void> loadEnviroments() async{
+  Future<void> Environments() async{
     //
   }
 }
 
 
-// class EnviromentException extends BaseException  {
-//     EnviromentException([String message]) : super(message);
+// class EnvironmentException extends BaseException  {
+//     EnvironmentException([String message]) : super(message);
 // }

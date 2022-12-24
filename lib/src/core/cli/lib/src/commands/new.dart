@@ -1,4 +1,5 @@
 import 'package:dartevel_cli/src/commands/command.dart';
+import 'package:prompts/prompts.dart' as prompts;
 
 class NewCommand extends DartevelCommand {
   final _description = 'create new dartevel project';
@@ -12,30 +13,31 @@ class NewCommand extends DartevelCommand {
 
   late String _project_name;
 
-  late bool _is_api;
-  late bool _is_web;
-
   NewCommand() {
-    argParser
-      ..addOption('name', abbr: 'n', help: 'project name')
-      ..addFlag('web', abbr: 'w', help: 'create full mvc web project')
-      ..addFlag('api', abbr: 'a', help: 'create reset full api project');
+    argParser..addOption('name', abbr: 'n', help: 'project name');
   }
 
   @override
   void run() async {
     if (argResults == null) {
+      print("Invalid arguments");
       return;
     }
 
-    _project_name = argResults?['name'];
-    _is_api = argResults?['api'];
-    _is_web = argResults?['web'];
-  }
+    List<String> projectTypes = [
+      "web",
+      "api",
+    ];
+    var type =
+        prompts.choose("Chose project type: ", projectTypes, defaultsTo: 'web');
+    print(type);
 
+    // _project_name = argResults?['name'];
+    // _is_api = argResults?['api'];
+    // _is_web = argResults?['web'];
+  }
 
   createNewProject() {
     return true;
   }
-
 }

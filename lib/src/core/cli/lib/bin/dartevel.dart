@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:args/command_runner.dart';
 import 'package:dartevel_cli/src/commands/docs.dart';
 import 'package:dartevel_cli/src/commands/down.dart';
+import 'package:dartevel_cli/src/commands/key_generate.dart';
 import 'package:dartevel_cli/src/commands/makes/make_controller.dart';
 import 'package:dartevel_cli/src/commands/makes/make_faker.dart';
 import 'package:dartevel_cli/src/commands/makes/make_mail.dart';
@@ -39,6 +40,7 @@ Future<void> main(List<String> args) async {
     ..addCommand(MakeMiddlewareCommand())
     ..addCommand(MakeMigrationCommand())
     ..addCommand(MakeModelCommand())
+    ..addCommand(KeyGenerateCommand())
     ..addCommand(VersionCommand());
 
   runner.argParser.addFlag('verbose',
