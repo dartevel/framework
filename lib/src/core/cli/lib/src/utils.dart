@@ -108,3 +108,18 @@ Future _checkForGit() async {
     print(red.wrap(' Git executable not found'));
   }
 }
+
+Future getStubFile(String name) async {
+  var stubFilePath =
+      path.join(path.current, "lib\\src\\stubs\\") + name + ".stub";
+  var file = File(stubFilePath);
+  late var content;
+
+  if (await file.exists() == true) {
+    content = await file.readAsString();
+    return content.toString();
+  } else {
+    print("stub file Not Exists");
+    return;
+  }
+}
