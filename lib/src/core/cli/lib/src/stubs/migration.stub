@@ -1,1 +1,8 @@
-class {{name}} extends Migration {}
+class {{name}} extends Migration {
+
+    @override
+    void up() {}
+
+    @override
+    void down() {}
+}

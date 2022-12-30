@@ -3,7 +3,67 @@ import 'dart:io';
 import 'dart:math';
 import 'package:io/ansi.dart';
 import 'package:path/path.dart' as path;
+import 'package:pubspec_parse/pubspec_parse.dart';
+
+final String checkmark = ansiOutputEnabled ? '\u2714' : '[Success]';
+
+final String ballot = ansiOutputEnabled ? '\u2717' : '[Failure]';
+
 // import "package:os_detect/os_detect.dart" as Platform;
+
+Future<Pubspec> loadPubspec([Directory? directory]) {
+  directory ??= Directory.current;
+  var file = File.fromUri(directory.uri.resolve('pubspec.yaml'));
+  return file
+      .readAsString()
+      .then((yaml) => Pubspec.parse(yaml, sourceUrl: file.uri));
+}
+
+Future<void> copyDirectory(Directory source, Directory destination) async {
+  // if (!topLevel) stdout.write('\r');
+  // print(darkGray
+  //     .wrap('Copying dir "${source.path}" -> "${destination.path}..."'));
+
+  await for (var entity in source.list(recursive: false)) {
+    if (path.basename(entity.path) == '.git') continue;
+    if (entity is Directory) {
+      var newDirectory =
+          Directory(path.join(destination.absolute.path, path.basename(entity.path)));
+      await newDirectory.create(recursive: true);
+      await copyDirectory(entity.absolute, newDirectory);
+    } else if (entity is File) {
+      var newPath = path.join(destination.path, path.basename(entity.path));
+      // print(darkGray.wrap('\rCopying file "${entity.path}" -> "$newPath"'));
+      await File(newPath).create(recursive: true);
+      await entity.copy(newPath);
+    }
+  }
+
+  // print('\rCopied "${source.path}" -> "${destination.path}.');
+}
+
+Future<bool> runCommand(String exec, List<String> args) async {
+  var s = '$exec ${args.join(' ')}'.trim();
+  stdout.write(darkGray.wrap('Running `$s`... '));
+
+  try {
+    var p = await Process.start(exec, args);
+    var code = await p.exitCode;
+
+    if (code == 0) {
+      print(green.wrap(checkmark));
+      return true;
+    } else {
+      print(red.wrap(ballot));
+      await stdout.addStream(p.stdout);
+      await stderr.addStream(p.stderr);
+      return false;
+    }
+  } catch (e) {
+    print(red.wrap('$ballot Failed to run process.'));
+    return false;
+  }
+}
 
 // void configureUtils() {
 

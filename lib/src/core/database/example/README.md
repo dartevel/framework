@@ -1,2 +1,0 @@
-# Dartevel database package examples
-

@@ -5,13 +5,15 @@ class NewCommand extends DartevelCommand {
   final _description = 'create new dartevel project';
   final _name = 'new';
 
+  late String _project_name;
+  String repoUrl = "https://github.com/dartevel/dartevel.git";
+
   @override
   String get name => _name;
 
   @override
   String get description => _description;
 
-  late String _project_name;
 
   NewCommand() {
     argParser..addOption('name', abbr: 'n', help: 'project name');
@@ -29,7 +31,7 @@ class NewCommand extends DartevelCommand {
       "api",
     ];
     var type =
-        prompts.choose("Chose project type: ", projectTypes, defaultsTo: 'web');
+        prompts.choose("Chose project types.dart: ", projectTypes, defaultsTo: 'web');
     print(type);
 
     // _project_name = argResults?['name'];
